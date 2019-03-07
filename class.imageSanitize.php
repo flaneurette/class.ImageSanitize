@@ -4,7 +4,7 @@ namespace security\images;
 
 ###########################################################################
 ##                                                                       ##
-##  Copyright 2016 Alexandra van den Heetkamp.                           ##
+##  Copyright 2008-2019 Alexandra van den Heetkamp.                      ##
 ##                                                                       ##
 ##  Secure upload class. This class scans images for vulnerabilities,    ##
 ##  viral vectors and exploits before processing and storing them.       ##
