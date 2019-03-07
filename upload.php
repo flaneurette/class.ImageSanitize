@@ -10,8 +10,6 @@ if(isset($_REQUEST['upload'])) {
 	$parameters = array('image' => 'files','path' => "test/",'thumb' => false,'width' => false,'height' => false);
 	$checkImage = new \security\images\ImageSecurityCheck($parameters);
 	$checkImage->fullScan(); 
-  var_dump($_FILES);
-  
 } 
 
 ?>
