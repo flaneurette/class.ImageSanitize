@@ -25,5 +25,3 @@ if(isset($_REQUEST['upload'])) {
 </form>
 
 <small>NB. Don't forget to create a /test/ folder to write files to.</small>
-
-?>
