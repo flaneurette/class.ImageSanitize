@@ -1,6 +1,6 @@
 # class.ImageSanitize
 PHP class to sanitize uploaded images.
 
-This class performs and in-depth security scan of uploaded images. It performs a bytcode scan and searches for viruses, xss, code execution and code injection. 
+This class performs and in-depth security scan of uploaded images. It performs a bytecode scan and searches for viruses, xss, code execution and code injection. 
 
-It turns either TRUE or FALSE.
+It returns Boolean: TRUE or FALSE.
