@@ -462,7 +462,7 @@ class ImageSecurityCheck
 	* Matrices
 	* The matrices contain vectors in hex format, which will be compared against a hex conversion of the binary source.
 	* We encoded the vectors to avoid false positives on computers and because it looks neater. 
-	* To see what the vectors/signatures contain, simply 'unhex' them in PHP.
+	* To see what the vectors/signatures contain, simply 'hex2bin($string)' them in a PHP foreach loop.
 	*/
 
 	/**
